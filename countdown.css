@@ -1,0 +1,58 @@
+body {
+	background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/potw2008a.jpg");
+	background-size: cover;
+	background-color: #000;
+	margin: 20px;
+}
+
+section, header {
+	border: solid 2px #4a235a;
+	background-color: #d4e6f1;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Helvetica, Arial;
+	color: #000;
+	font-weight: bold;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+header {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 30%;
+}
+
+section a {
+	font-weight: normal;
+	color: #a93226;
+	text-decoration: underline dotted;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline double;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 10px;
+	/*border: solid 1px black;*/
+}
+
+article {
+	/*line-height: 10px;*/
+	padding-top: 10px;
+}
+
+.clock {
+	line-height: 40px;
+}

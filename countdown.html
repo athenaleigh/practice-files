@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Countdown clocks</title>
+	<link rel="stylesheet" type="text/css" href="countdown.css">
+	<script src="countdown.js"></script>
+</head>
+<body onload="displayDate()">
+	<header>
+		<h1>Space Countdown Clocks</h1>
+		<p>Current date: <span id="current"></span></p></header>
+	<section>
+		<img src="https://www.nasa.gov/sites/default/files/thumbnails/image/69-hc-617_0.jpg">
+		<article>SpaceX launch<br>
+			We have liftoff!<br>
+		<!-- <span id="spacex" class="clock"></span><br> -->
+		<!-- <a href="https://www.youtube.com/watch?v=pMsvr55cTZ0" target="_blank">Watch here!</a> -->
+		ISS docking in:<br>
+		<span id="docking" class="clock"></span></article>
+	</section>
+	<section>
+		<img src="https://mars.nasa.gov/imgs/mars2020/mars2020_007_v006-500x.png" alt="Perseverance">
+		<article>Perseverance launch<br>
+		<span id="persLaunch" class="clock"></span><br>
+		<a href="https://mars.nasa.gov/mars2020/timeline/launch/" target="_blank">Official launch website</a></article>
+	</section>
+	<section>
+		<img src="https://mars.nasa.gov/imgs/mars2020/mars2020_007_v006-500x.png" alt="Perseverance">
+		<article>Perseverance lands on Mars!
+		<span id="persLand" class="clock"></span><br>
+		<a href="https://mars.nasa.gov/mars2020/" target="_blank">Mars2020 site</a></article>
+	</section>
+
+	<object width="560" height="315" data="https://www.youtube.com/embed/21X5lGlDOfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>
+</body>
+</html>
