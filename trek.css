@@ -1,0 +1,77 @@
+body {
+	background: linear-gradient(45deg, #ac58fa, #f5a9f2, #facc2e, #ffffa1);
+	margin: 4%;
+}
+h1 {
+	font-family: Georgia;
+	font-size: 50px;
+}
+header {
+	border: 2px inset darkred;
+	border-radius: 10px;
+	padding: 5px;
+	background: -moz-linear-gradient(left, #58acfa, lightcyan, #58acfa);
+	background: -webkit-linear-gradient(left, #58acfa, lightcyan, #58acfa);
+	background: -ms-linear-gradient(left, #58acfa, lightcyan, #58acfa);
+	background: -o-linear-gradient(left, #58acfa, lightcyan, #58acfa);
+	background: linear-gradient(left, #58acfa, lightcyan, #58acfa);
+	text-align: center;
+}
+nav a {
+	width: 10%;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+}
+table {
+	border: solid 1px;
+	border-collapse: collapse;
+	background-color: #ffffff;
+	width: 100%;
+}
+td, th {
+	padding: 15px;
+}
+th {
+	background-color: #79baec;
+	color: #ffffff;
+	border-bottom: solid 1px black;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+tr:hover {
+	background-color: #EDAB79;
+}
+caption {
+	margin-top: 20px;
+	border-top: solid 2px #58acfa;
+	border-left: solid 2px #58acfa;
+	border-right: solid 2px #58acfa;
+	background-color: rgba(255, 255, 255, .4);
+	color: #000;
+	border-radius: 10px 10px 0 0;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+#stseries td:nth-child(2), #stseries td:nth-child(3) {
+	text-align: center;
+}
+#ships td {
+	width: 18%;
+}
+#shortreks td {
+	background-color: #ffffff;
+	border: solid 1px;
+}
+#shortreks tr:hover {
+	background-color: #EDAB79;
+}
+#shortreks {
+	width: 650px;
+}
+.season, .ep {
+	text-align: center;
+}
